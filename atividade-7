@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main () {
+	setlocale(LC_ALL,"Portuguese");
+	
+	float celsius, fahren;
+	
+	printf("Escreva uma temperatura em Celsius");
+	scanf("%f",&celsius);
+	
+	fahren = (celsius * 1.8) + 32;
+	
+	printf("A temperatura de Celsius para Fahrenheit é %f", fahren);
+	
+}
