@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main ()
+{
+
+int num1, num2, soma;
+
+printf("Escolha um número:\n");
+scanf("%i",&num1);
+
+printf("Escolha mais um número\n");
+scanf("%i",&num2);
+
+soma = num1 + num2;
+
+printf("O resultado da soma é: %i",soma);
+return 0;	
+
+}
